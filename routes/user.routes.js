@@ -29,4 +29,7 @@ userRouter.dee("/:id", (req, res) => {
 userRouter.dee("/:id", (req, res) => {
   res.send({ title: "delete specific user" });
 });
+userRouter.dee("/:id", (req, res) => {
+  res.send({ title: "delete specific user" });
+});
 export default userRouter;
